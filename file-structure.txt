@@ -1,0 +1,29 @@
+fantasy-portfolio/
+├── public/
+│   ├── images/
+│   └── vite.svg
+├── src/
+│   ├── assets/
+│   │   └── icons/
+│   ├── components/
+│   │   ├── _button.scss
+│   │   ├── _card.scss
+│   │   └── index.scss
+│   ├── layouts/
+│   │   └── _container.scss
+│   ├── pages/
+│   │   └── _quest-start.scss
+│   ├── utils/
+│   │   ├── _variables.scss
+│   │   ├── _mixins.scss
+│   │   └── _functions.scss
+│   ├── base/
+│   │   ├── _reset.scss
+│   │   └── _typography.scss
+│   ├── main.scss          # ← ЕДИНСТВЕННЫЙ главный SCSS
+│   └── main.js             # import './style.scss';
+├── index.html              # ← НЕТ style.scss тут!
+└── package.json
+
+
+https://funnel-git-28030484.figma.site/
